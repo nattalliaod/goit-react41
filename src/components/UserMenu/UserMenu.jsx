@@ -11,6 +11,8 @@ import {
 
 export const UserMenu = ({ user }) => {
   const [isPopoverVisible, setIsPopoverVisible] = useState(false);
+  console.log(user);
+  
   return (
     <MenuContainer
       onMouseEnter={() => setIsPopoverVisible(true)}
